@@ -43,7 +43,7 @@ nav {
     margin: 1.5rem;
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -56,21 +56,22 @@ nav {
     text-decoration: none;
     color: #FEF6E3;
     text-align: right;
-    
 }
 
 .logo {
     margin: 1.25rem;
 }
 
-.buscador{
-    text-align: center;
-    margin: 1.25rem;
-    padding: 2.5rem;
-    border-radius: 1.25rem;
+
+.buscar{
+    width: 43.75rem; 
+    height: 2.5rem;
+    border-radius: .9375rem;
     border: 0;
-    width: 37.5rem;
-    height: 4.375rem;
+    box-sizing: content-box;
+    align-items: center;
+    text-align: center;
+    font-size: 1.375rem;
 }
 
 .navbar li {
@@ -117,12 +118,14 @@ nav {
     text-decoration: underline;
 }
 
+
 .carrousel{
     font-family: "Montserrat", sans-serif;
     display: flex;
     margin: 1.875rem 0rem 4.375rem 0rem;
     justify-content: space-evenly;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -169,6 +172,13 @@ section div ul li a {
     margin: 20px;
 }
 
+
+
+@media (max-widht:1024px){
+    .headear{
+        width: 100%;
+    }
+}
 
 
 
