@@ -35,13 +35,25 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="guia">
-                <p>Inicio > Productos</p>
+        <div class="guia">
+            <div class="gia">
+                <p>Inicio ></p>
+                <h4>Productos</h4>
             </div>
+            <select class="orden" name="ordenar por" id="ordenador">
+                <option value="">Mas vendidos</option>
+                <option value="">Mas nuevo a mas viejo</option>
+                <option value="">Mas viejo a mas nuevo</option>
+                <option value="">Percio: mayor a menor</option>
+                <option value="">Percio: menor a mayor</option>
+                <option value="">A - Z</option>
+                <option value="">Z - A</option>
+            </select>
+        </div>
+        <section class="barra-izquierda">
             <div>
-                <h1 class="t1">Categorias</h1>
-                <ul class="Barra-izquierda">
+                <h1>Categorias</h1>
+                <ul>
                     <li>Semillas</li>
                     <li>Esquejes</li>
                     <li>Sustratos</li>
@@ -52,24 +64,17 @@
                     <li>Fertilizantes</li>
                 </ul>
             </div>
-            <button>Ver mas</button>
-            <div>
-                <h3>Filtrar por</h3>
+            <div class="butt">
+                <p>Ver mas</p>
+            </div>
+            <div class="filtro">
+                <h2>Filtrar por</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae natus sequi modi odio
                     rerum,pariatur quo? Nesciunt quidem ut neque reiciendis laborum impedit fuga ipsam voluptatem
                     dolore.Voluptas, distinctio officia!</p>
             </div>
         </section>
-        <select name="" id="">
-            <option value="">Mas vendidos</option>
-            <option value="">Mas nuevo a mas viejo</option>
-            <option value="">Mas viejo a mas nuevo</option>
-            <option value="">Percio: mayor a menor</option>
-            <option value="">Percio: menor a mayor</option>
-            <option value="">A - Z</option>
-            <option value="">Z - A</option>
-        </select>
-        <div class="catalogo">
+        <section class="catalogo">
             <article>
                 <img src="../asset/Figma/-speed-auto 1.png" alt="Semillas">
                 <h4>Speed auto</h4>
@@ -177,7 +182,7 @@
                     consequuntur atque!</p>
             </article>
             <button class="m-r">Mas resultados</button>
-        </div>
+        </section>
     </main>
     <footer>
         <section class="pie">
