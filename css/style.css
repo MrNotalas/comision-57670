@@ -30,7 +30,6 @@ body {
 header {
     background-image: url(../asset/img/nav.bar.jpg);
     font-family: "Montserrat", sans-serif;
-    gap: 1.25rem;
     background-position: 150%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +65,7 @@ nav {
 .buscar{
     width: 37.5rem; 
     height: 2.5rem;
-    border-radius: .9375rem;
+    border-radius: 1.25rem;
     border: 0;
     box-sizing: content-box;
     align-items: center;
@@ -175,21 +174,47 @@ section div ul li a {
 
 
 
-@media (max-widht:1024px){
-    .headear{
+@media(max-widht:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 1024px;
+    }
+
+    img{
+        width: 200px;
+    }
+}
+
+@media(max-widht:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 768px;
+    }
+
+    img{
+        width: 150px;
+    }
+
+    .m-s{
         width: 150%;
     }
 }
 
-@media (max-widht:768px){
-    .headear{
-        width: 150%;
-    }
-}
-
-@media (max-widht:425px){
-    .headear{
-        width: 150%;
+@media(max-widht:425px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 }
 
