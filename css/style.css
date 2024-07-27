@@ -122,7 +122,7 @@ nav {
 .carrousel{
     font-family: "Montserrat", sans-serif;
     display: flex;
-    margin: 1.875rem 0rem 4.375rem 0rem;
+    margin: 1.875rem 0rem 2.5rem 0rem;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
@@ -131,7 +131,7 @@ nav {
 
 .kits {
     display: flex;
-    margin: 1.875rem 0rem 1.875rem 0rem;
+    margin: 1.25rem 0rem 1.875rem 0rem;
     justify-content: space-evenly;
 }
 
@@ -174,49 +174,6 @@ section div ul li a {
 
 
 
-@media(max-widht:1024px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body{
-        width: 1024px;
-    }
-
-    img{
-        width: 200px;
-    }
-}
-
-@media(max-widht:768px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body{
-        width: 768px;
-    }
-
-    img{
-        width: 150px;
-    }
-
-    .m-s{
-        width: 150%;
-    }
-}
-
-@media(max-widht:425px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-}
 
 
 
@@ -302,16 +259,6 @@ section div ul li a {
     grid-column-end: 4;
 }
 
-@media (max-widht:1024px){
-}
-
-@media (max-widht:768px){
-}
-
-@media (max-widht:425px){
-}
-
-
 
 /*registro*/
 
@@ -360,4 +307,227 @@ section div ul li a {
     border-radius: 1.875rem;
     text-align: center;
     align-items: center;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar img{
+        width: 20px;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .buscar{
+        width: 300px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .m-s{
+        font-size: 20px;
+    }
+
+    .marcas div img{
+        width: 450px;
+        height: 250px;
+    }
+
+    .subtitulo{
+        font-size: 18px;
+    }
+
+
+    .carrousel img{
+        width: 200px;
+    }
+
+    .panel img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .v-l img{
+        width: 30px;
+    }
+
+    .v-r img{
+        width: 30px;
+    }
+
+.kits img{
+    width: 400px;
+}
+
+}
+
+@media screen and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar li a{
+        font-size: 12px;
+    }
+    
+    .navbar img{
+        width: 10px;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    .buscar{
+        width: 200px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .m-s{
+        font-size: 18px;
+    }
+
+    .marcas div img{
+        width: 350px;
+        height: 200px;
+    }
+
+    .subtitulo{
+        font-size: 16px;
+    }
+
+    .carrousel{
+        font-size: 12px;
+    }
+
+    .carrousel img{
+        width: 150px;
+    }
+
+    .panel img{
+        width: 250px;
+        height: 150px;
+    }
+
+    .v-l img{
+        width: 30px;
+    }
+
+    .v-r img{
+        width: 30px;
+    }
+
+.kits img{
+    width: 300px;
+}
+
+
+
+
+}
+
+@media screen and (max-width:425px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header{
+        background-position: 50%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px 5px 5px;
+    }
+
+
+    .logo img{
+        width: 100px;
+    }
+
+    .buscar{
+        font-size: 12px;
+    }
+
+    .m-s{
+        font-size: 15px;
+    }
+
+
+    .marcas div img{
+        width: 180px;
+        height: 100px;
+        margin: 1px;
+    }
+
+    .subtitulo{
+        font-size: 14px;
+    }
+
+    .carrousel p{
+        font-size: 10px;
+    }
+
+
+    .carrousel h3{
+        font-size: 10px;
+    }
+
+
+    .carrousel img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .v-l img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .v-r img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .kits img{
+        width: 300px;
+        margin: 5px;
+    }
+
+    .kits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    footer section{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    footer img{
+        width: 20px;
+    }
+
+    .contactos ul li img{
+        width: 15px;
+    }
+
 }
