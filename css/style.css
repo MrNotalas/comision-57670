@@ -64,7 +64,7 @@ nav {
 
 .buscar{
     width: 37.5rem; 
-    height: 2.5rem;
+    height: 30px;
     border-radius: 1.25rem;
     border: 0;
     box-sizing: content-box;
@@ -306,7 +306,7 @@ section div ul li a {
 
 input{
     width: 600px;
-    height: 70px;
+    height: 50px;
     border-radius: 30px;
     padding: 10px;
 }
@@ -329,7 +329,20 @@ input{
 
 
 /*inicio sesion*/
+.access{
+    align-items: center;
+}
 
+.access img{
+    width: 60px;
+    margin: 10px;
+}
+
+.acceso{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
 
 
 
